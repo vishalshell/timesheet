@@ -152,15 +152,18 @@ backend:
 
   - task: "Timesheet Management System"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/backend/server.py"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Complete timesheet CRUD with status workflow (draft, submitted, approved, rejected). Includes employee entry, manager approval, and proper access controls."
+      - working: true
+        agent: "testing"
+        comment: "✅ PASSED - Complete timesheet management system working perfectly. Employee successfully created timesheet in draft status, submitted for approval, and access is properly restricted to own timesheets. Status workflow functioning correctly."
 
   - task: "Approval Workflow"
     implemented: true
