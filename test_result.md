@@ -264,16 +264,13 @@ metadata:
 
 test_plan:
   current_focus:
-    - "JWT Authentication System"
-    - "User Management with Roles"
-    - "Project Management CRUD"
-    - "Timesheet Management System"
-    - "Approval Workflow"
     - "Authentication UI"
     - "Dashboard Interface"
     - "Timesheets Management UI"
+    - "Projects List View"
+    - "Navigation and Layout"
   stuck_tasks: []
-  test_all: true
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
